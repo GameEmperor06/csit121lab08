@@ -1,0 +1,59 @@
+body {
+
+background-image: url('images/White background.jpeg');
+background-repeat: no-repeat;
+background-size:cover;
+font-size: 16px;
+color: black;
+}
+
+a {
+background-repeat: no-repeat;
+font-size: 16px;
+color: black;
+
+}
+
+.current {
+font-weight: bold;
+background-color:yellowgreen;
+
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
+
+.sidenav a {
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.openbtn {
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+}
+
+.closebtn {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+}
+
+@media (min-width: 768px) {
+
+    main {
+        flex-direction: row;
+    }
+
+}
